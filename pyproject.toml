@@ -1,0 +1,23 @@
+[project]
+name = "subtitle-to-speech"
+version = "1.0.0"
+description = 'Convert SRT and SBV subtitle files to spoken audio to enhance accessibility of video in sign language.'
+readme = "README.md"
+requires-python = ">=3.9,<=3.12"
+license = "MIT"
+
+authors = [
+  { name = "Statistisches Amt, Kanton Zürich, Team Data", email = "datashop@statistik.zh.ch" },
+  { name = "Chantal Amrhein" },
+  { name = "Patrick Arnecke" },
+]
+
+dependencies = [
+    "openai>=1.78.0",
+    "pre-commit>=4.2.0",
+    "pydub>=0.25.1",
+    "python-dotenv>=1.1.0",
+    "srt>=3.5.3",
+    "streamlit>=1.45.0",
+]
+
