@@ -1,6 +1,6 @@
 # Subtitle to Speech
 
-**Convert subtitle files into synchronized German speech audio using OpenAI's Text-to-Speech (TTS) API.**
+**Convert subtitle files into synchronized German language audio using OpenAI's Text-to-Speech (TTS) API.**
 
 ![GitHub License](https://img.shields.io/github/license/machinelearningZH/subtitle-to-speech)
 [![Python Version](https://img.shields.io/badge/python-v3.9+-blue.svg)](https://github.com/machinelearningZH/subtitle-to-speech)
@@ -14,13 +14,13 @@
 
 ## Features
 
-* **Accessibility-First**: Designed to enhance the accessibility of videos, particularly useful for adding spoken audio to sign language content, e.g. [for videos like this](https://www.zh.ch/de-gs/gesundheit/notfall-rettung.html).
-* **Subtitle Support**: Parses both `.srt` and `.sbv` subtitle formats.
-* **High-Quality Speech**: Uses OpenAI’s TTS API with support for multiple expressive voices that perform well in German.
-* **Timing Preservation**: Retains original subtitle timings and inserts silence where necessary.
-* **Customizable Silence Padding**: Add silence after subtitle segments for improved flow.
-* **Volume Normalization**: Optionally normalize loudness across segments for consistency.
-* **Flexible Output Formats**: Export to various formats (e.g., WAV, MP3) using [`pydub`](https://github.com/jiaaro/pydub).
+* **Accessibility-First**: Designed to enhance the accessibility of videos, the tool is particularly useful for adding spoken audio to sign language content, for instance, like in this [video](https://www.zh.ch/de-gs/gesundheit/notfall-rettung.html).
+* **Subtitle support**: Parses both `.srt` and `.sbv` subtitle formats.
+* **High-Quality speech**: Uses OpenAI’s TTS API with support for multiple expressive voices that perform well in German.
+* **Timing preservation**: Retains original subtitle timings and inserts silent breaks where necessary.
+* **Customizable silence padding**: Adds silent breaks after subtitle segments for improved flow.
+* **Volume normalization**: Optionally normalize loudness across segments for consistency.
+* **Flexible output formats**: Exports to various formats (e.g., WAV, MP3) using [`pydub`](https://github.com/jiaaro/pydub).
 
 ## Prerequisites
 
