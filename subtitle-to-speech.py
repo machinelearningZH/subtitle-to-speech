@@ -299,10 +299,10 @@ def synthesize(
 st.set_page_config(page_title="SRT2Audio", layout="wide")
 st.title("🎙️ Untertitel-zu-Sprache-Konverter")
 st.markdown(
-    "Lade eine SRT- oder SBV-Untertiteldatei hoch und wähle eine Stimme und ein Audioformat. Diese App generiert dir gesprochenes Audio mit einer synthetischen Stimme von [OpenAI](https://www.openai.fm/). :red[**Wichtig: Deine Inhalte werden bei Clouddiensten verarbeitet (OpenAI). Verwende ausschliesslich daher nur nicht sensitive, öffentliche Daten.**]"
+    "Lade eine SRT- oder SBV-Untertiteldatei hoch und wähle eine Stimme und ein Audioformat. Diese App generiert dir gesprochenes Audio mit einer synthetischen Stimme von [OpenAI](https://www.openai.fm/). :red[**Wichtig: Deine Inhalte werden bei Clouddiensten verarbeitet (OpenAI). Verwende daher nur nicht sensitive, öffentliche Daten.**]"
 )
 
-# --- Parameters ---
+# --- Sidebar Settings ---
 with st.sidebar:
     st.header("Audio-Einstellungen")
     selected_voice = st.selectbox(

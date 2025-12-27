@@ -14,23 +14,23 @@
 
 ## Features
 
-* **Accessibility-First**: Designed to enhance the accessibility of videos, the tool is particularly useful for adding spoken audio to sign language content, for instance, like in this [video](https://www.zh.ch/de-gs/gesundheit/notfall-rettung.html).
-* **Subtitle support**: Parses both `.srt` and `.sbv` subtitle formats.
-* **High-Quality speech**: Uses OpenAI’s TTS API with support for multiple expressive voices that perform well in German.
-* **Timing preservation**: Retains original subtitle timings and inserts silent breaks where necessary.
-* **Customizable silence padding**: Adds silent breaks after subtitle segments for improved flow.
-* **Volume normalization**: Optionally normalize loudness across segments for consistency.
-* **Flexible output formats**: Exports to various formats (e.g., WAV, MP3) using [`pydub`](https://github.com/jiaaro/pydub).
+- **Accessibility-First**: Designed to enhance the accessibility of videos, the tool is particularly useful for adding spoken audio to sign language content, for instance, like in this [video](https://www.zh.ch/de-gs/gesundheit/notfall-rettung.html).
+- **Subtitle support**: Parses both `.srt` and `.sbv` subtitle formats.
+- **High-Quality speech**: Uses OpenAI’s TTS API with support for multiple expressive voices that perform well in German.
+- **Timing preservation**: Retains original subtitle timings and inserts silent breaks where necessary.
+- **Customizable silence padding**: Adds silent breaks after subtitle segments for improved flow.
+- **Volume normalization**: Optionally normalize loudness across segments for consistency.
+- **Flexible output formats**: Exports to various formats (e.g., WAV, MP3) using [`pydub`](https://github.com/jiaaro/pydub).
 
 ## Prerequisites
 
-* **OpenAI API Key**
-* **`ffmpeg`**: Required by `pydub` to process audio files.
+- **OpenAI API Key**
+- **`ffmpeg`**: Required by `pydub` to process audio files.
 
   Install `ffmpeg`:
 
-  * **macOS (Homebrew)**: `brew install ffmpeg`
-  * **Ubuntu/Debian**: `sudo apt update && sudo apt install ffmpeg`
+  - **macOS (Homebrew)**: `brew install ffmpeg`
+  - **Ubuntu/Debian**: `sudo apt update && sudo apt install ffmpeg`
 
 ## Installation
 
@@ -74,20 +74,14 @@ Access the app at `http://127.0.0.1:8501`
 
 ## Project Team
 
-* **Simone Luchetta** — [Staatskanzlei Zürich: Team Informationszugang & Dialog](https://www.zh.ch/de/staatskanzlei/digitale-verwaltung/team.html)
-* **Chantal Amrhein**, **Patrick Arnecke** — [Statistisches Amt Zürich: Team Data](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/data.html)
+- **Simone Luchetta** — [Staatskanzlei Zürich: Team Informationszugang & Dialog](https://www.zh.ch/de/staatskanzlei/digitale-verwaltung/team.html)
+- **Chantal Amrhein**, **Patrick Arnecke** — [Statistisches Amt Zürich: Team Data](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt/data.html)
 
 ## Feedback and Contributing
 
 We welcome feedback and contributions. [Email us](mailto:datashop@statistik.zh.ch) or open an issue or pull request.
 
 We use [Ruff](https://docs.astral.sh/ruff/) for linting and code formatting.
-
-Install pre-commit hooks for automatic checks before opening a pull request:
-
-```bash
-pre-commit install
-```
 
 ## License
 
