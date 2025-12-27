@@ -3,7 +3,7 @@
 **Convert subtitle files into synchronized German language audio using OpenAI's Text-to-Speech (TTS) API.**
 
 ![GitHub License](https://img.shields.io/github/license/machinelearningZH/subtitle-to-speech)
-[![Python Version](https://img.shields.io/badge/python-v3.9+-blue.svg)](https://github.com/machinelearningZH/subtitle-to-speech)
+[![Python Version](https://img.shields.io/badge/python-v3.10+-blue.svg)](https://github.com/machinelearningZH/subtitle-to-speech)
 [![GitHub Stars](https://img.shields.io/github/stars/machinelearningZH/subtitle-to-speech.svg)](https://github.com/machinelearningZH/subtitle-to-speech/stargazers)
 [![Issues](https://img.shields.io/github/issues/machinelearningZH/subtitle-to-speech.svg)](https://github.com/machinelearningZH/subtitle-to-speech/issues)
 [![Pull Requests](https://img.shields.io/github/issues-pr/machinelearningZH/subtitle-to-speech.svg)](https://github.com/machinelearningZH/subtitle-to-speech/pulls)
