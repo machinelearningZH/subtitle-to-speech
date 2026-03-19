@@ -12,10 +12,10 @@ authors = [
   { name = "Patrick Arnecke" },
 ]
 dependencies = [
-    "openai>=1.82.0",
+    "openai>=2.29.0",
     "pydub>=0.25.1",
     "python-dotenv>=1.2.1",
     "srt>=3.5.3",
-    "streamlit>=1.50.0",
+    "streamlit>=1.55.0",
 ]
 
