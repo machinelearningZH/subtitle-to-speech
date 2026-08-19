@@ -1,0 +1,51 @@
+publiccodeYmlVersion: 0.5.0
+name: Subtitle to Speech
+applicationSuite: Accessibility & Language Simplification
+url: https://github.com/machinelearningZH/subtitle-to-speech
+releaseDate: 2025-05-28
+platforms:
+  - web
+  - windows
+  - mac
+  - linux
+categories:
+  - video-editing
+developmentStatus: stable
+softwareType: standalone/other
+organisation:
+  uri: https://ld.admin.ch/canton/1
+  name: Zurich
+description:
+  en:
+    localisedName: Subtitle to Speech
+    shortDescription: Convert subtitle files into synchronized German language audio
+      using OpenAI's Text-to-Speech (TTS) API.
+    longDescription: Subtitle to Speech helps you meet accessibility requirements by
+      adding a spoken audio track to videos that currently only have text — most
+      notably sign language videos, where subtitles alone don't serve people who
+      rely on audio. Simply provide a subtitle file in .srt or .sbv format, and
+      the tool generates natural-sounding German speech using OpenAI's
+      text-to-speech technology, precisely synced to your original subtitle
+      timing. Several expressive voice options are available, and the tool
+      automatically handles pacing, silent pauses, and volume consistency so the
+      result sounds polished rather than robotic. The finished audio is exported
+      as a standard WAV or MP3 file, ready to attach to your video. As subtitle
+      text is sent to OpenAI's API for speech generation, we recommend using it
+      only with content intended for public release, not confidential material.
+    documentation: https://github.com/machinelearningZH/subtitle-to-speech/blob/main/README.md
+    features:
+      - Text-to-Speech
+      - Subtitle Parsing
+      - Multi-Format
+      - Accessibility
+legal:
+  license: MIT
+maintenance:
+  type: internal
+  contacts:
+    - name: Team Data, Amt für Statistik und Daten
+      email: datashop@statistik.zh.ch
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - de-CH
